@@ -301,7 +301,7 @@ class aow_storage : public aow_storage_base<WindowSize, T, Extent> {
   aow_storage& operator=(aow_storage&&) = default;
   ~aow_storage()                        = default;  ///< Destructor
 
-  aow_storage(aow_storage const&) = delete;
+  aow_storage(aow_storage const&)            = delete;
   aow_storage& operator=(aow_storage const&) = delete;
 
   /**
